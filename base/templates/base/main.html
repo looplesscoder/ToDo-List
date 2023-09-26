@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <!-- Add your CSS stylesheets and external libraries here -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-color:  #FAFAFA;
+            font-family: 'Open Sans', sans-serif;
+            padding-top: 50px;
+
+
+
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+            {
+            font-family: 'Raleway', sans-serif;
+        }
+
+        
+        a,
+        p {
+            color: #4b5156
+        }
+        .container{
+            max-width: 550px;
+            margin: auto;
+            background-color: #fff;
+            -webkit-box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+            box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+
+        }
+    </style>
+</head>
+<body>
+    <div class= "container">
+        {% block content %}
+
+        {%endblock content%}
+    </div>
+   
+</body>
+</html>
+
+
+
+
+
